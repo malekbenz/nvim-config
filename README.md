@@ -12,10 +12,11 @@ vim-plug is popular plugin manager for Neovim. To install it on Windows, open a 
 ```
 md ~\AppData\Local\nvim\autoload
 ```
+Use the following settings:
 
-Dowload [autoload/plugvim](autoload/plug.vim)
+Dowload [autoload/plug.vim](autoload/plug.vim)
 
-Download init.vim, use the following settings for vim-plug:
-[init.vim](./init.vim)
+Download [init.vim](./init.vim) 
+
 
 When we run command `:PlugInstall`, all the plugins will be installed under `~/AppData/Local/nvim/plugged`. We can also change this directory to where we want, for example, `~/AppData/Local/nvim-data/plugged`.
